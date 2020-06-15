@@ -62,6 +62,7 @@ ul{
     display: inline-block;
 }
 .menu ul li a{
+    color: #fff;
     text-transform: uppercase;
     padding: 32px 12px;
     transition: .6s;
@@ -71,7 +72,7 @@ ul{
     -o-transition: .6s;
 }
 .menu ul li a:hover{
-    color: #fff;
+   color: #3c9fc9;
 }
 /*Header Css End*/
 /*Banner Css Start*/
@@ -122,21 +123,7 @@ ul{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.banner_content .banner_btn_p{
-    font-size: 18px;
-}
-.banner_content .banner_btn_p img{
-  font-size: 20px;
-  padding:  10px 0;
-  background: #000;
-  border: 10px solid #000;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 
-}
 /*Banner Css End*/
 
 /*Features Css Start*/
