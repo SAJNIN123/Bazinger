@@ -101,7 +101,7 @@ ul{
     text-transform: uppercase;
     background: #303e4b;
     color:#fff;
-    border: 2px solid #fff;
+    box-shadow: 0 7px 5px -5px #fff;
     border-radius: 5px;
     padding: 24px 60px;
     -webkit-border-radius: 5px;
@@ -115,7 +115,7 @@ ul{
     text-transform: uppercase;
     background: #4bcaff;
     color: #fff;
-    border: 2px solid #277697;
+    box-shadow: 0 7px 5px -5px #277697;
     border-radius: 5px;
     padding: 24px 60px;
     -webkit-border-radius: 5px;
@@ -123,7 +123,30 @@ ul{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-
+.icon_box{
+    width: 270px;
+}
+.icon_box p{
+    font-size: 18px;
+    display: inline-block;
+    color: #f4e8e8;
+    padding-right: 15px;
+}
+.icon_box i{
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: #4bcaff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 /*Banner Css End*/
 
 /*Features Css Start*/
@@ -134,14 +157,23 @@ ul{
 .container{
     background: f9f9f9;
 }
-.features_item img{
-    font-size: 13px;
-    background: #4bcaff;
-    border: 30px solid #4bcaff;
-    border-radius: 50%;
-}
+
 .features_item{
     text-align: center;
+}
+.features_item i{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .features_item h6{
     font-size: 15px;
@@ -206,9 +238,9 @@ ul{
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
-     position: relative;
-      z-index: 1;
-       margin: 100px 0px 80px; 
+    position: relative;
+    z-index: 1;
+    margin: 100px 0px 80px; 
     }
 
 #technology::after { content: '';
@@ -247,7 +279,7 @@ ul{
 /*Price  Css Start*/
 #price .price_item_container {
     margin-top: 18px; 
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .price_item_container .row{
 	align-items: center;
@@ -264,7 +296,7 @@ ul{
 }
 .price_item_basic{
     width: 300px;
-    height: 350px;
+    height: 360px;
     border: 1px solid fefefe;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -304,7 +336,7 @@ ul{
 }
 .price_item_professional{
     width: 370px;
-    height: 400px;
+    height: 410px;
     border: 1px solid fefefe;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -343,7 +375,7 @@ ul{
 }
 .price_item_advanced{
     width: 300px;
-    height: 350px;
+    height: 360px;
     border: 1px solid fefefe;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -432,7 +464,7 @@ ul{
     text-align: center;
     padding: 20px 10px;
     text-transform: uppercase;
-    border: 1px solid #4bcaff;
+    box-shadow: 0 7px 5px -5px #277697;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
