@@ -39,6 +39,29 @@ ul{
     color: #414042;
     padding-bottom: 60px;
 }
+
+
+
+
+#backToTop{
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    z-index: 9999999;
+    cursor: pointer;
+}
 /*Common Css End*/
 /*Header Css Start*/
 #header{
@@ -73,6 +96,14 @@ ul{
 }
 .menu ul li a:hover{
    color: #3c9fc9;
+}
+
+.menufixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 /*Header Css End*/
 /*Banner Css Start*/
