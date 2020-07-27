@@ -1,21 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Bazinger Project</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="CSS/fontawesome.min.css">
+    <link rel="stylesheet" href="CSS/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="CSS/venobox.min.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/slick.css" type="text/css">
     <link rel="stylesheet" href="CSS/Style.CSS" type="text/css">
 </head>
 <body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
     <!-- Header Start -->
     <header id="header" class="menufixed">
         <div class="container">
             <div class="row">
-                <div class="logo">
+                <div class="logo wow bounceInRight">
                     <img src="images/Logo.png" alt="">
                 </div>
-                <div class="menu ">
+                <div class="menu  wow bounceInLeft">
                     <ul>
                         <li><a href="#">HOME </a></li>         
                         <li><a href="#">Features </a>
@@ -32,7 +40,30 @@
     </header>
       <!-- Header End -->
       <!-- Banner Start -->
-      <section id="banner">
+      <section id="banner" class="">
+        <div class="banner_item" style="background-image: url(images/Banner.jpg);"> 
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="banner_content">
+                <h4 class="wow bounceInUp" data-wow-duration="1s"> Simple, Beautiful and Amazing</h4>
+            <p class="wow bounceInUp" data-wow-duration="3s">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
+            </p>
+           <div class="banner_btn class="wow bounceInUp" data-wow-duration="4s"">
+            <a href="#" class="download_btn">DOWNLOAD</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
+           </div>
+                   
+                <div class="icon_box class="wow bounceInDown" data-wow-duration="2s"">
+                    <p>Available On: </p>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-robot"></i>
+                </div>
+           
+        </div>
+        </div>
+    </div>
+    <div class="banner_item" style="background-image: url(images/bg2.jpg);">
         <div class="container">
             <div class="banner_content">
                 <h4>Simple, Beautiful and Amazing</h4>
@@ -51,7 +82,71 @@
                 </div>
            
         </div>
-            </div>
+        </div>
+    </div>
+    <div class="banner_item" style="background-image: url(images/bg3.jpg);">
+        <div class="container">
+            <div class="banner_content">
+                <h4>Simple, Beautiful and Amazing</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
+            </p>
+           <div class="banner_btn">
+            <a href="#" class="download_btn">DOWNLOAD</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
+           </div>
+                   
+                <div class="icon_box">
+                    <p>Available On: </p>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-robot"></i>
+                </div>
+           
+        </div>
+        </div>
+    </div>
+    <div class="banner_item" style="background-image: url(images/bg4.jpg);">
+        <div class="container">
+            <div class="banner_content">
+                <h4>Simple, Beautiful and Amazing</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
+            </p>
+           <div class="banner_btn">
+            <a href="#" class="download_btn">DOWNLOAD</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
+           </div>
+                   
+                <div class="icon_box">
+                    <p>Available On: </p>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-robot"></i>
+                </div>
+           
+        </div>
+        </div>
+    </div>
+    <div class="banner_item" style="background-image: url(images/bg5.jpg);">
+        <div class="container">
+            <div class="banner_content">
+                <h4>Simple, Beautiful and Amazing</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
+            </p>
+           <div class="banner_btn">
+            <a href="#" class="download_btn">DOWNLOAD</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
+           </div>
+                   
+                <div class="icon_box">
+                    <p>Available On: </p>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-robot"></i>
+                </div>
+           
+        </div>
+        </div>
+    </div>
       </section>
       <!-- Banner End -->
      
@@ -62,7 +157,7 @@
                     <h5>summarise the features</h5>
                     <p>summarise what your product is all about</p>
                 </div>
-               <div class="row">
+               <div class="row features_slider">
                 <div class="features_item">
                     <i class="fas fa-layer-group"></i>
                     <h6>Attractive Layout</h6>
@@ -97,13 +192,24 @@
       <!-- Features End -->
       <!-- Gallery Start -->
         <section id="gallery">
+          
             <div class="container">
                 <div class="section_title">
                     <h5>show the gallery</h5>
                     <p>summarise what your product is all about</p>
                 </div>
-               <div class="row">
-                <div class="gallery_item">
+                <div class="my_gallery">
+                    <div class="gallery_work">
+                        <ul>
+                            <li class="active" data-filter="all">All</li>
+								<li data-filter="cp"> Curton Pic</li>
+								<li data-filter="dp">Doll Pic</li>
+								<li data-filter="gp">Graphic Pic</li>
+                        </ul>
+                    </div>
+                </div>
+               <div class="row filter-container">
+                <div class="gallery_item filtr-item"  data-category="cp.dp">
                     <div class="screenshot_box">
                         <img src="images/h.jpg" alt="">
                     <h6>Screenshot#1</h6>
@@ -112,7 +218,7 @@
                         Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.  
                     </p>
                 </div>
-                <div class="gallery_item">
+                <div class="gallery_item filtr-item"  data-category="dp.gp">
                    <div class="screenshot_box">
                     <img src="images/n.jpg" alt="">
                     <h6>Screenshot#2</h6>
@@ -121,7 +227,7 @@
                         Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.  
                     </p>
                 </div>
-                <div class="gallery_item">
+                <div class="gallery_item filtr-item"  data-category="gp,cp">
                     <div class="screenshot_box">
                         <img src="images/index.jpg" alt="">
                     <h6>Screenshot#3</h6>
@@ -130,7 +236,7 @@
                         Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.  
                     </p>
                 </div>
-                <div class="gallery_item">
+                <div class="gallery_item filtr-item"  data-category="gp,cp,dp">
                    <div class="screenshot_box">
                     <img src="images/g.jpg" alt="">
                     <h6>Screenshot#4</h6>
@@ -143,11 +249,36 @@
             </div>
         </section>
        <!-- Gallery End -->
+       <!-- Counter Section Start-->
+		<section id="counter">
+			<div class="container">
+				<div class="row">
+					<div class="counter_item">
+						<h2><span class="counter">100</span><span>K</span></h2>
+						<p>Happy Clints</p>
+					</div>
+					<div class="counter_item">
+						<h2><spanclass="counter">200</span><span>k</span></h2>
+						<p>Total Points</p>
+					</div>
+					<div class="counter_item">
+						<h2 class="counter"> 3000</h2>
+						<p>Employee</p>
+					</div>
+					<div class="counter_item">
+						<h2 class="counter">4000</h2>
+						<p>Exemple</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Counter Section End-->
 
-       <!-- Technology Start-->
+
+       <!-- Technology Section Start -->
        <section id="technology">
             <h2>Watch the best Technology in <span class="bold">Action</span></h2>
-          <div class="technology_content">
+          <div class="technology_content  wow bounceInLeft">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.
             </p>
@@ -238,7 +369,7 @@
         <section id="download">
             <h2>Do you Like this app?</h2>
             <div class="download_btn">
-                <a href="#">DOWNLOAD NOW</a>
+                <a class="venobox" data-gall="myGallery" data-autoplay="true" data-vbtype="video" href="https://youtu.be/5JR_Yajnwts">DOWNLOAD NOW</a>
             </div>
         </section>
         <!-- Download End -->
@@ -276,6 +407,14 @@
         <!-- Footer End -->
         <div id="backToTop">↕</div>
         <script src="js/jquery-1.12.4.min.js" ></script>
-        <script src="js/script.js" ></script>
+        <script src="js/venobox.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/filterizr.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/counterup.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
+       
 </body>
 </html>
